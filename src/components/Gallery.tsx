@@ -8,11 +8,11 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: '/images/gallery-1.webp', alt: 'Equipe da clinica odontologica', caption: 'Nossa Equipe' },
-  { src: '/images/gallery-2.webp', alt: 'Consultorio equipado com tecnologia moderna', caption: 'Tecnologia de Ponta' },
-  { src: '/images/gallery-3.webp', alt: 'Sala de espera elegante e confortavel', caption: 'Conforto e Elegancia' },
-  { src: '/images/gallery-4.webp', alt: 'Consultorio com ambiente acolhedor', caption: 'Ambiente Acolhedor' },
-  { src: '/images/gallery-5.webp', alt: 'Fachada da clinica odontologica', caption: 'Nossa Clinica' },
+  { src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80', alt: 'Atendimento de emergencia 24h', caption: 'Emergencia 24h' },
+  { src: 'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=800&q=80', alt: 'Urgencia odontologica', caption: 'Urgencia Imediata' },
+  { src: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80', alt: 'Equipamento de urgencia', caption: 'Equipamento de Ponta' },
+  { src: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80', alt: 'Tratamento rapido', caption: 'Agilidade no Atendimento' },
+  { src: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80', alt: 'Consultorio pronto', caption: 'Sempre Prontos' },
 ];
 
 export default function Gallery() {
